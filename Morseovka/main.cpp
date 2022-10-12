@@ -14,7 +14,7 @@ const int ledOff=0;
 int main()
 {
     while(1) {
-        Word("navlecka",dot,dash,waitLetter,waitWord,myled,ledOn,ledOff);
+        Word("Tomas",dot,dash,waitLetter,waitWord,myled,ledOn,ledOff);
         wait(waitWord);
     }
 }
