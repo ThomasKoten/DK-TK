@@ -4,7 +4,7 @@ Běh jednotlivých vláken jsou na sebe navázána ve funkci `main2` funkcí  _j
 
 Ve funkci `main`  předcházíme vzniku souběhu pomocí zamykání a odemykání. To je zajištěno třídou _mutex_.
 
-##Popis kódu
+## Popis kódu
 - `struct vars` je struktura pro definici vykreslovaných hodnot.
 - `void threading(struct vars)` je funkce pro vykreslování a přepisování textu.
 - `void thr()` vykreslování na displeji.
