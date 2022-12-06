@@ -15,7 +15,7 @@ Mapa musí být generována tak, aby na sebe jednotlivé prvky smyslupně navazo
 
 ## Ovládání
 * `Výška` a `Šířka` - vstupy určující velikost generovaného obrázku, validními vstupy jsou čísla > 0
-* `GENERUJ` - tlačítko pro načtení vstupů a spuštění výpočtů a vykreslování
+* `GENERUJ` - tlačítko pro načtení vstupů, spuštění výpočtů a vykreslování
 * `KONEC` - tlačítko vypíná program
 
 ## Funkce souborů
