@@ -14,7 +14,9 @@ Mapa musí být generována tak, aby na sebe jednotlivé prvky smyslupně navazo
 7. Výsledná matice je předána do funkce **Bitmapovator()**, kde jsou čísla převedeny na stavební prvky, z kterých je vytvořen obrázek.
 
 ## Ovládání
-//Daniel will do :)
+* `Výška` a `Šířka` - vstupy určující velikost generovaného obrázku, validními vstupy jsou čísla > 0
+* `GENERUJ` - tlačítko pro načtení vstupů a spuštění výpočtů a vykreslování
+* `KONEC` - tlačítko vypíná program
 
 ## Funkce souborů
 * `main.m` - generování uživatelského prostředí
