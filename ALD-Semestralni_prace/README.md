@@ -7,11 +7,11 @@ Mapa musí být generována tak, aby na sebe jednotlivé prvky smyslupně navazo
 ## Algoritmus generování
 1. Do funkce **template()** jsou zadány rozměry výsledné matice.
 2. Nejdříve je náhodně zvolena hodnota na pozici [1,1], v rozmezí 0 až 15.
-3. Další hodnoty v první řádku jsou náhodně vybírány z vektoru validních hodnot.
-4. Tento vektor získáme pomocí funkce **rightOpt()**. Dosazením předchozí hodnoty získáme vektor, který obsahuje všechny sousední hodnoty napravo od hodnoty předchozí.
-5. Na dalších řádcích je kromě **rightOpt()** používána také funkce **downOpt()**. Ta generuje vektor validních hodnot podle přechozí vyšší hodnoty.
-6. Kromě první sloupce, kde je využívána jen funkce **downOpt()**, je zbytek hodnot generován z konjunkce vektorů obou funkcí.
-7. Výsledná matice je předána do funkce **Bitmapovator()**, kde jsou čísla převedeny na stavební prvky, z kterých je vytvořen obrázek.
+3. Další hodnoty v prvním řádku jsou náhodně vybírány z vektoru validních hodnot.
+4. Tento vektor získáme pomocí funkce **rightOpt()**. Dosazením předchozí hodnoty získáme vektor, který obsahuje všechny možné sousední hodnoty napravo od hodnoty předchozí.
+5. Na dalších řádcích je kromě **rightOpt()** používána také funkce **downOpt()**. Ta generuje vektor validních hodnot podle přechozí horní hodnoty.
+6. Kromě prvního sloupce, kde je využívána jen funkce **downOpt()**, je zbytek hodnot generován z průniku vektorů obou funkcí.
+7. Výsledná matice je předána do funkce **Bitmapovator()**, kde jsou čísla převedena na stavební prvky, z kterých je vytvořen obrázek.
 
 ## Ovládání
 * `Výška` a `Šířka` - vstupy určující velikost generovaného obrázku, validními vstupy jsou čísla > 0
