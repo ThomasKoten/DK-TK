@@ -1,5 +1,5 @@
 function [bitmap] = Bitmapovator(map)
-    s=size(map)
+    s=size(map);
     bitmap=[];
     tmp=[];
     for x=1:s(1)
